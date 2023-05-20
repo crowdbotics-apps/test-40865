@@ -1,4 +1,4 @@
-import React from "react";
+import { TextInput } from "react-native";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const SignIn = () => {
@@ -9,12 +9,21 @@ const SignIn = () => {
       position: 'relative',
       flex: 1
     }}></ScrollView>
-    </SafeAreaView>;
+    <TextInput style={styles.JuDqeVeD} value="test"></TextInput></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
+  },
+  JuDqeVeD: {
+    backgroundColor: "#672323",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    top: 0,
+    left: 0
   }
 });
 export default SignIn;
