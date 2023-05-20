@@ -9,7 +9,7 @@ const SignIn = () => {
       position: 'relative',
       flex: 1
     }}></ScrollView>
-    <TextInput style={styles.JuDqeVeD} value="test"></TextInput></SafeAreaView>;
+    <TextInput style={styles.JuDqeVeD} placeholder="test" defaultValue="1"></TextInput></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
